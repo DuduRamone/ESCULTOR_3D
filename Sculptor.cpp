@@ -216,7 +216,7 @@ void Sculptor::cutEllipsoid(int xc, int yc, int zc, int rx, int ry, int rz){
 }
 
 void Sculptor::writeOFF(char *filename){
-  ofstream fout; // como chamar a biblioteca
+  ofstream fout; // criando um arquivo fout
   fout.open(filename); // abrindo o arquivo
 
   int i, j, k;
